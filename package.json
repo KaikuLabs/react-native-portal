@@ -77,10 +77,5 @@
       "module",
       "typescript"
     ]
-  },
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "its-fine"
-    ]
   }
 }
