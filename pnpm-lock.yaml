@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       its-fine:
-        specifier: github:KaikuLabs/its-fine#e0ceac5dc6bd55633effac9b7216011dcca3dbbc
-        version: https://codeload.github.com/KaikuLabs/its-fine/tar.gz/e0ceac5dc6bd55633effac9b7216011dcca3dbbc(@types/react@17.0.91)(react@16.11.0)
+        specifier: github:KaikuLabs/its-fine#424a1ebf872d06e6f5a91eebd0edfb7d74a69d2d
+        version: https://codeload.github.com/KaikuLabs/its-fine/tar.gz/424a1ebf872d06e6f5a91eebd0edfb7d74a69d2d(@types/react@17.0.91)(react@16.11.0)
       nanoid:
         specifier: ^3.3.8
         version: 3.3.11
@@ -3375,8 +3375,8 @@ packages:
     resolution: {integrity: sha512-H0dkQoCa3b2VEeKQBOxFph+JAbcrQdE7KC0UkqwpLmv2EC4P41QXP+rqo9wYodACiG5/WM5s9oDApTU8utwj9g==}
     engines: {node: '>= 0.4'}
 
-  its-fine@https://codeload.github.com/KaikuLabs/its-fine/tar.gz/e0ceac5dc6bd55633effac9b7216011dcca3dbbc:
-    resolution: {tarball: https://codeload.github.com/KaikuLabs/its-fine/tar.gz/e0ceac5dc6bd55633effac9b7216011dcca3dbbc}
+  its-fine@https://codeload.github.com/KaikuLabs/its-fine/tar.gz/424a1ebf872d06e6f5a91eebd0edfb7d74a69d2d:
+    resolution: {tarball: https://codeload.github.com/KaikuLabs/its-fine/tar.gz/424a1ebf872d06e6f5a91eebd0edfb7d74a69d2d}
     version: 2.0.0
     peerDependencies:
       react: ^19.0.0
@@ -9900,7 +9900,7 @@ snapshots:
       has-symbols: 1.1.0
       set-function-name: 2.0.2
 
-  its-fine@https://codeload.github.com/KaikuLabs/its-fine/tar.gz/e0ceac5dc6bd55633effac9b7216011dcca3dbbc(@types/react@17.0.91)(react@16.11.0):
+  its-fine@https://codeload.github.com/KaikuLabs/its-fine/tar.gz/424a1ebf872d06e6f5a91eebd0edfb7d74a69d2d(@types/react@17.0.91)(react@16.11.0):
     dependencies:
       '@types/react-reconciler': 0.28.9(@types/react@17.0.91)
       react: 16.11.0
@@ -10073,11 +10073,7 @@ snapshots:
       pretty-format: 26.6.2
       throat: 5.0.0
     transitivePeerDependencies:
-      - bufferutil
-      - canvas
       - supports-color
-      - ts-node
-      - utf-8-validate
 
   jest-leak-detector@26.6.2:
     dependencies:

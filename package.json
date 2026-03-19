@@ -36,11 +36,10 @@
     "delete-build": "rm -rf lib",
     "delete-dts.js": "find ./lib/commonjs -name '*.d.js*' -delete && find ./lib/module -name '*.d.js*' -delete",
     "example": "yarn --cwd example",
-    "bootstrap": "yarn example && yarn && pod install",
-    "prepare": "npm run build"
+    "bootstrap": "yarn example && yarn && pod install"
   },
   "dependencies": {
-    "its-fine": "github:KaikuLabs/its-fine#e0ceac5dc6bd55633effac9b7216011dcca3dbbc",
+    "its-fine": "github:KaikuLabs/its-fine#424a1ebf872d06e6f5a91eebd0edfb7d74a69d2d",
     "nanoid": "^3.3.8"
   },
   "devDependencies": {
